@@ -13,7 +13,6 @@ int pop_listint(listint_t **head)
 {
 	int data_n;
 	listint_t *free_node;
-
 	if (head == NULL)
 	return (0);
 	if (*head == NULL)
